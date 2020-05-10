@@ -1,17 +1,18 @@
 {
-  "name": "justbot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {},
-  "description": "",
-  "dependencies": {
-    "covid19-api": "^1.2.1",
-    "dotenv": "^8.2.0",
-    "telegraf": "^3.38.0"
-  }
+   "name": "justbot",
+   "version": "1.0.0",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+   },
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {},
+   "description": "",
+   "dependencies": {
+      "covid19-api": "^1.2.1",
+      "dotenv": "^8.2.0",
+      "telegraf": "^3.38.0"
+   }
 }
